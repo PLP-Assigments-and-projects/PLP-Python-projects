@@ -31,3 +31,15 @@ print(coordinates[0])  # Outputs: 10
 
 # Trying to modify a tuple will raise an error:
 # coordinates[0] = 5  # Error! Tuples can't be modified.
+
+
+# Sets 🔄
+# Unordered collections of unique elements.
+
+# A set is a collection of unique items (no duplicates allowed).
+
+# 📝 Example:
+
+unique_numbers = {1, 2, 2, 3, 4}
+
+print(unique_numbers)  # Outputs: {1, 2, 3, 4} (Notice that 2 is only included once)
