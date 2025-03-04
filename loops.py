@@ -18,3 +18,10 @@ while countdown > 0:
     countdown -= 1
 
 print("Blast off! 🚀")
+
+
+
+#Customized Module in python
+from Functions import greet
+greet("Faith")
+greet("Morris")
