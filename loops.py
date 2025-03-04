@@ -4,9 +4,17 @@
 for i in range(5):
     print(i)
 
-# Outputs:
-# 0
-# 1
-# 2
-# 3
-# 4
+#i stands for an iteration(an act that is repeated)
+
+
+#While Loop: Runs as long as a condition is True.
+
+#(Repeats as long as a condition is true.)
+
+countdown = 5
+
+while countdown > 0:
+    print("Counting down:", countdown)
+    countdown -= 1
+
+print("Blast off! 🚀")
