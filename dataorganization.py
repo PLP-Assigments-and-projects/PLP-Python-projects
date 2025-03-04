@@ -43,3 +43,20 @@ print(coordinates[0])  # Outputs: 10
 unique_numbers = {1, 2, 2, 3, 4}
 
 print(unique_numbers)  # Outputs: {1, 2, 3, 4} (Notice that 2 is only included once)
+
+
+# Dictionaries 📖
+# Store key-value pairs. Think of it as a real-life dictionary, where you look up a word (key) to get its definition (value).
+
+# A dictionary is like a phonebook—it stores key-value pairs.
+
+# 📝 Example:
+
+student_info = {"name": "Charlie", "age": 21, "grade": "A"}
+
+# Accessing a value by its key
+print(student_info["name"])  # Outputs: Charlie
+
+# Modifying a value
+student_info["age"] = 22
+print(student_info)  
