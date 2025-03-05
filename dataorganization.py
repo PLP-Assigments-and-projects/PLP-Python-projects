@@ -59,4 +59,4 @@ print(student_info["name"])  # Outputs: Charlie
 
 # Modifying a value
 student_info["age"] = 22
-print(student_info)  
+print(student_info)   
